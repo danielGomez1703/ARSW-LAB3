@@ -28,6 +28,7 @@ public class EchoClient {
             System.err.println("Don’t know about host!.");
             System.exit(1);
         } catch (IOException e) {
+            //System.out.println(e.getMessage());
             System.err.println("Couldn’t get I/O for " + "the connection to: localhost.");
             System.exit(1);
         }
